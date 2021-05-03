@@ -1,0 +1,240 @@
+/* home */
+
+body {
+    overflow-x: hidden;
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-end {
+    text-align: right !important;
+}
+
+.wrap {
+    background: rgba(0, 0, 0, 0.5) url(../img/img-001.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0px;
+    overflow: hidden;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+}
+
+header .logo {
+    float: left;
+    margin: 25px;
+}
+
+header .menu {
+    float: right;
+    margin-top: 25px;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    margin: 0 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+header a.btn-join {
+    background-color: white;
+    color: black;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+.content {
+    max-width: 55%;
+    padding: 300px 0 0;
+    color: #fff;
+}
+
+.content h1 {
+    font-size: 48px;
+    letter-spacing: 10px;
+}
+
+.content p {
+    font-size: 20px;
+    padding: 25px 0;
+    font-weight: 300;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: var(--bs-gutter-x, 0.75rem);
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-left: calc(var(--bs-gutter-x) / -2);
+}
+
+.fitur {
+    padding: 16px;
+    background-color: #132026;
+}
+
+.fitur img {
+    height: 60px;
+    margin-top: 20px;
+}
+
+.fitur h2 {
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.fitur p {
+    color: #8d8d8d;
+    margin: 10px 0;
+    font-size: 10pt;
+}
+
+/* translate */
+
+#translate {
+    max-width: 100%;
+    background:#ffffff;
+    
+}
+.translate-1{
+    max-width: 50%;
+    background:#132026;
+    margin: auto;
+    padding: 20px 40px;
+    border: 2px solid black;
+    color: white;
+    border-radius: 5px;
+    display: grid;
+    grid-template-areas: 
+    'title title'
+    'bahasa-1 bahasa-2'
+    'comment-1 comment-2';
+    gap: 5px;
+}
+
+.translate-1 label {
+    display: block;
+    margin-bottom: 25px;
+}
+.translate-1 select,textarea {
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px;
+}
+
+.translate-1 textarea {
+    height: 200px;
+}
+
+/* form */
+
+.form{
+    max-width: 100%;
+    background:#132026;
+}
+#survey-form .header h1,
+p {
+    text-align: center;
+    color: #132026;
+}
+#survey-form .header p{
+    margin-top: -20px;
+}
+
+#survey-form {
+    max-width: 600px;
+    background :white;
+    margin: auto;
+    padding: 20px 40px;
+    color: #132026;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 25px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='number'],
+input[type='password'],select{
+    display: block;
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #132026;
+    padding: 10px;
+    font-family: inherit;
+}
+
+button {
+    width: 100%;
+    height: 35px;
+    color: white;
+    background-color: #132026;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+/* price */
+
+.content-table {
+    max-width: 600px;
+    border-collapse:collapse;
+    margin: auto;
+    margin-bottom: 50px;
+    font-size: 1.2em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+}
+
+.content-table thead tr {
+    background-color: #132026;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    background-color: white;
+    border-bottom: 1px solid #dddddd;
+}
+
+    
